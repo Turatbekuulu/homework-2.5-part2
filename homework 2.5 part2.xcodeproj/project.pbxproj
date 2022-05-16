@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		048F36F728325CCA007A5920 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36F628325CCA007A5920 /* main.swift */; };
+		048F36FE28325DE2007A5920 /* SuperAbilityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36FD28325DE2007A5920 /* SuperAbilityDelegate.swift */; };
+		048F370028325F4D007A5920 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F36FF28325F4D007A5920 /* Hero.swift */; };
+		048F370228326085007A5920 /* Magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F370128326085007A5920 /* Magic.swift */; };
+		048F37042832609A007A5920 /* Medic .swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F37032832609A007A5920 /* Medic .swift */; };
+		048F3706283260B4007A5920 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F3705283260B4007A5920 /* Warrior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		048F36F328325CCA007A5920 /* homework 2.5 part2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "homework 2.5 part2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048F36F628325CCA007A5920 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		048F36FD28325DE2007A5920 /* SuperAbilityDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAbilityDelegate.swift; sourceTree = "<group>"; };
+		048F36FF28325F4D007A5920 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		048F370128326085007A5920 /* Magic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic.swift; sourceTree = "<group>"; };
+		048F37032832609A007A5920 /* Medic .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medic .swift"; sourceTree = "<group>"; };
+		048F3705283260B4007A5920 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				048F36F628325CCA007A5920 /* main.swift */,
+				048F36FD28325DE2007A5920 /* SuperAbilityDelegate.swift */,
+				048F36FF28325F4D007A5920 /* Hero.swift */,
+				048F370128326085007A5920 /* Magic.swift */,
+				048F37032832609A007A5920 /* Medic .swift */,
+				048F3705283260B4007A5920 /* Warrior.swift */,
 			);
 			path = "homework 2.5 part2";
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048F3706283260B4007A5920 /* Warrior.swift in Sources */,
 				048F36F728325CCA007A5920 /* main.swift in Sources */,
+				048F36FE28325DE2007A5920 /* SuperAbilityDelegate.swift in Sources */,
+				048F370028325F4D007A5920 /* Hero.swift in Sources */,
+				048F370228326085007A5920 /* Magic.swift in Sources */,
+				048F37042832609A007A5920 /* Medic .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

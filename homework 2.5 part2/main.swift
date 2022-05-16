@@ -1,11 +1,9 @@
-//
-//  main.swift
-//  homework 2.5 part2
-//
-//  Created by Mac on 16/5/22.
-//
+var magic = Magic(health: 1000, damage: 200, typeOfSuperAbility: "Fireball")
+var medic = Medic(health: 500, damage: 0, typeOfSuperAbility: "Hilling")
+var warrior = Warrior(health: 1500, damage: 100, typeOfSuperAbility: "Critical damage")
 
-import Foundation
+var objects: [Hero] = [magic, medic, warrior]
 
-print("Hello, World!")
-
+for object in objects {
+    object.applySuperAbility()
+}
